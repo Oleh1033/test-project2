@@ -20,6 +20,11 @@ header {
     font-size:62px;
     font-weight: 800;
 }
+.img_icon img {
+    width: 150px;
+    height: 150px;
+    margin-left:30%;
+}
 h3  {
 
     padding-top: 30px;
@@ -44,6 +49,7 @@ img .small {
     size:296px 444px ;
 
 }
+
 .main {
     padding-top:100px;
     padding-bottom: 35px;
@@ -53,26 +59,11 @@ h1, h2, h3, h4, h5, h6{
     padding-top: 30px;
     text-align: center;
 }
-.col-lg-12{
-    padding-top: 20px;
-}
-.col-lg-4 img{
-    float: none;
-    width: 100px;
-    height: auto;
-    align-content: center;
-    horiz-align:center;
-    margin-bottom: 15px;
-    margin-top:40px;
-    margin-left:140px;
-}
+
 h5 {
     margin: 30px;
 }
-.col-lg-6 img{
-    width: 460px;
-    height: auto;
-}
+
 .black {
     color: white;
     background-color: #010101;
@@ -90,9 +81,9 @@ h1, h3, h4, h5, h6 {
     padding-bottom: 35px;
 }
 .black h1 {
-    padding:0px;
+    padding:0;
     margin-bottom: 30px;
-    padding-bottom: 0px;!important;
+
 }
 .hor-line{
     text-align: center;
@@ -118,20 +109,22 @@ h1, h3, h4, h5, h6 {
     padding-bottom: 160px;
 }
 .white h4 {
-    padding:0px;
+    padding:0;
 }
 .white .nomg {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-top: 0px;
-    padding-bottom: 10px;
-    margin-left: 30px;
+
+    margin: 5px 0;
+    padding: 0 0 10px 30px;
+
 }
 .vline {
     width: 2px;
     height: 60px;
     background: #e0e0e0;
     margin-left: 38px;
+}
+.red_face {
+    margin-top:30px;
 }
 .rimage  {
     width: 80px;
@@ -192,6 +185,32 @@ form {
     height: 30px;
     vertical-align: middle;
 }
-.zalupa {
-    padding-left: 470px;
+.til {
+    padding-left: 35%;
+}
+
+/* --------------   MEDIA    ----------- */
+@media screen and (max-width: 992px) {
+    .nomg {
+        font-size:1.2em
+    }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .form{
+        width:80%;
+    }
+    .form-inline{
+        margin-left:10%;
+    }
+    #top{
+        margin-left:30%;
+    }
+    .nomg {
+        font-size:1em
+    }
+
 }
